@@ -1,1 +1,1 @@
-web: java -Dgrails.env=prod -Dserver.port=${PORT:-8080} -Dserver.host=0.0.0.0 -jar .\build\libs\datahora-0.1.war
+web: cd build ; java -Dgrails.env=dev -jar ../build/server/webapp-runner-*.jar --expand-war --port $PORT libs/*.war
