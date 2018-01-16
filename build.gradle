@@ -82,7 +82,7 @@ dependencies {
     testCompile "org.grails:grails-web-testing-support"
     testRuntime "org.seleniumhq.selenium:selenium-htmlunit-driver:2.47.1"
     testRuntime "net.sourceforge.htmlunit:htmlunit:2.18"
-    compile "org.eclipse.jetty:jetty-runner:0.2.11.v20150529"
+    compile "org.eclipse.jetty:jetty-runner:9.2.11.v20150529"
     compile "com.github.jsimone:webapp-runner:8.0.30.2"
 }
 
