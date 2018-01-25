@@ -1,0 +1,1 @@
+web: java -Dgrails.env=prod -jar .\build\server\webapp-runner-8.5.11.3.jar --expand-war .\build\libs\datahora-0.1.war --port 5000

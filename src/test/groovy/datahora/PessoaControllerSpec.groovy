@@ -3,8 +3,6 @@ package datahora
 import grails.test.mixin.*
 import spock.lang.*
 
-@TestFor(PessoaController)
-@Mock(Pessoa)
 class PessoaControllerSpec extends Specification {
 
     def populateValidParams(params) {

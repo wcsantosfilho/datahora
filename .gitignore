@@ -1,6 +1,8 @@
 Thumbs.db
 .DS_Store
 .gradle
+!.gradle/wrapper/gradle-wrapper.jar
+!.gradle/wrapper/gradle-wrapper.properties
 build/
 .idea
 *.iml
@@ -9,3 +11,4 @@ build/
 .project
 .settings
 .classpath
+target/
